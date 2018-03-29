@@ -1,0 +1,115 @@
+/* colors
+#2D3142 gunmetal (grey)
+#4F5D75 black coral (blue/grey)
+#BFC0C0 silver
+#FFFFFF white
+#EF8354 light red ochre (orange)
+
+#055AF5 bright blue
+#30405C navy
+#17AEC2 teal
+#CA6F4A light brown
+#F52705 bright red
+*/
+
+
+
+/* Global Styles */
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  color: #30405C;
+}
+
+a {
+  color: #17AEC2;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2 {
+  font-family: 'Passion One', cursive;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.col-narrow {
+  width: 33.33%;
+  float: left;
+  min-height: 175px;
+}
+
+.col-wide {
+  width: 66.67%;
+  float: left;
+  padding-left: 30px;
+  min-height: 175px;
+}
+
+/* Header and Footer Styles */
+header, footer {
+  background: #2D3142;
+  color: #CA6F4A;
+}
+
+/* header */
+/* header {
+  text-align: center;
+} */
+header h1 {
+  color: #17AEC2;
+}
+header h1, header h2 {
+  margin: 0;
+}
+
+.profile-img {
+  /* width: 300px; */
+  border-radius: 50%;
+  /* float: left; */
+  /* margin-right: 30px; */
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Work Experience and Education*/
+
+.work, .edu, .leadership, .skills {
+  background: white;
+}
+
+
+/* Education */
